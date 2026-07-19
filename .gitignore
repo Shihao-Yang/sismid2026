@@ -17,5 +17,13 @@ secrets/*
 !secrets/*.enc
 !secrets/README.md
 
+# Codex broker: never commit real Codex credentials, claim state, or the passcode.
+auth-*.json
+server/creds/
+state.json
+broker.log
+broker.out
+passcode
+
 # OS
 .DS_Store
